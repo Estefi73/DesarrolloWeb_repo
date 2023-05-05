@@ -1,0 +1,19 @@
+@import 'utilities/variables';
+
+@import 'base/reset';
+@import 'base/typo';
+
+@import 'layout/aside';
+@import 'layout/footer';
+@import 'layout/form';
+@import 'layout/nav';
+
+@import 'components/cards';
+@import 'components/tables';
+@import 'components/carousel';
+
+@import 'pages/inicio';
+@import 'pages/adiestramiento';
+@import 'pages/nutricion';
+@import 'pages/salud';
+@import 'pages/contacto';

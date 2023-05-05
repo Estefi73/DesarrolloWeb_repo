@@ -1,0 +1,13 @@
+.contenido {
+    @extend .inicio;
+    .row {
+        p {
+            text-align: justify;
+            font-family: $tipografia_primaria;
+            font-size: $tipografia_tam_sec;
+            padding:10px;
+        }
+
+    }
+}
+

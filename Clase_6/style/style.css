@@ -1,0 +1,81 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        "nav header header"
+        "nav section aside"
+        "nav section aside"
+        "nav footer footer";
+    grid-template-columns: .5fr 4fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr .3fr;
+
+    width: 100%;
+    height: 100vh;
+    row-gap: 5px;
+    column-gap: 5px;
+    align-content:start;
+    justify-content:start;
+}
+
+.item{
+    border: 1px solid black;
+    background: yellowgreen;
+    box-sizing: content-box;
+
+}
+
+.nav{
+    /*background: rgb(102, 255, 0);
+    border-style: dashed;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 5px;*/
+    grid-area: nav;
+    padding: 5px;
+
+}
+.header{
+    /*background: rgb(102, 255, 0);
+    border-style: dashed;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 5px;*/
+    grid-area: header;
+    padding: 5px;
+}
+.section{
+    /*background: rgb(102, 255, 0);
+    border-style: dashed;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 5px;*/
+    grid-area: section;
+    padding: 5px;
+}
+.aside{
+    /*background: rgb(102, 255, 0);
+    border-style: dashed;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 5px;*/
+    grid-area: aside;
+    padding: 5px;
+}
+.footer{
+    /*background: rgb(102, 255, 0);
+    border-style: dashed;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 5px;*/
+    grid-area: footer;
+    padding: 5px;
+}
+
+.nav .logo{
+    display: grid;
+    border:2px dashed blueviolet;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-items: center;
+}
+

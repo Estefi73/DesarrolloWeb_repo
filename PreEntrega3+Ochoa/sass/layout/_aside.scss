@@ -1,0 +1,22 @@
+.publicidad{
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: $tipografia_secundaria;
+    text-align: center;
+    color: $color_secundario;
+    
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .publicidad_dos{
+        text-decoration: none;
+        font-family: $tipografia_secundaria;
+
+        &:hover{
+            color: $color_secundario;
+        }
+    }
+}

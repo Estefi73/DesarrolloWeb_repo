@@ -1,0 +1,24 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: bisque;
+}
+a {
+	color: black;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: 600;
+	text-decoration: none;
+	font-size: 1.2rem;
+	line-height: 2rem;
+}
+
+
+.cabecera {
+	background-color: cornsilk;
+}
+
+
+.menu, .submenu {
+	list-style: none;
+}
+
+

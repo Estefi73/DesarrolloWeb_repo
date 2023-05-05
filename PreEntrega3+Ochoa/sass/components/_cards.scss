@@ -1,0 +1,38 @@
+.card{
+    .card-img-overlay{
+        opacity: 0;
+
+        .card-title{
+            font-size: $tipografia_tam_sec;
+            font-family: $tipografia_tam_sec;
+        }
+        .card-text{
+            font-size: $tipografia_tam_ter;
+            font-family: $tipografia_secundaria;  
+        }
+    }
+
+    &:hover .card-img-overlay{
+        opacity: 1;
+    }
+}
+
+.card {
+    .card-body {
+        background-color: $color_terciario;
+        color: white;
+
+        .card-title {
+            text-align: center;
+            text-decoration: underline;
+            font-family: $tipografia_secundaria;
+            font-size: $tipografia_tam_sec;
+        }
+
+        .card-text {
+            text-align: justify;
+            font-family: $tipografia_secundaria;
+            font-size: $tipografia_tam_sec;
+        }
+    }
+}

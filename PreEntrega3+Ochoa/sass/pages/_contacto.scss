@@ -1,0 +1,32 @@
+.contacto {
+    background-color: $color_primario;
+
+    h3 {
+        margin-top: 50px;
+        padding: 20px;
+        text-align: center;
+        font-family: $tipografia_primaria;
+        font-weight: $tipografia_grosor_600;
+        color: $color_secundario;
+    }
+
+    p {
+        text-align: center;
+        font-family: $tipografia_primaria;
+        font-size: $tipografia_tam_sec;
+        font-weight: $tipografia_grosor_600;
+    }
+
+    .row {
+        padding: 30px;
+        
+        .form-control {
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 10px 0 10px 0;
+        }
+    }
+
+}

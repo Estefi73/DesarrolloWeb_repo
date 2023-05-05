@@ -1,0 +1,47 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "section section aside"
+        "footer footer footer";
+        grid-template-columns:110px auto 110px;
+        grid-template-rows: 115px 200vh 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    display: flex;
+    background: #E7D4B3;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.item a .logo{
+    max-width: 103px;
+    height: auto;
+    border-radius: 5px;
+    box-sizing:content-box;
+}
+
+.item .link a{
+    text-decoration: none;
+    /*justify-content: space-between;*/
+    align-content: center;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.section{
+    grid-area: section;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.footer{
+    grid-area: footer;
+}

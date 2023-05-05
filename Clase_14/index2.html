@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>clase 14 librerias</title>
+  <!-- estilo AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- estilo animateCSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- estilo general -->
+  <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+
+<body>
+  <!-- bloque inicio -->
+  <div class="main">
+    <!-- ejemplo AnimateCSS -->
+    <h1 class="animate__animated animate__rubberBand">hello amigos</h1>
+  </div>
+
+  <!-- ejemplos AOS -->
+  <div class="aos" data-aos="fade-up">
+    <h2>scroll para ver los ejemplos del vivo</h2>
+  </div>
+  <div class="aos" data-aos="fade-left">
+    <!-- gradient+transition -->
+    <div class="bk-test"></div>
+  </div>
+
+  <div class="aos" data-aos="fade-right">
+    <!-- transition -->
+    <div>
+      <button>link-1</button>
+      <button>link-2</button>
+      <button>link-3</button>
+      <button>link-4</button>
+      <button>link-5</button>
+      <button>link-6</button>
+      <button>link-7</button>
+      <button>link-8</button>
+    </div>
+  </div>
+  
+  <!-- ejemplo con parametros por atributo (AOS) -->
+  <div class="aos" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="4000">
+    <!-- animation -->
+    <div class="bk-test two"></div>
+  </div>
+
+  <!-- script AOS -->
+  <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+
+  <!-- inicio AOS -->
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

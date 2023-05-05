@@ -1,0 +1,59 @@
+.inicio {
+    background-color: $color_primario;
+
+    .row {
+        h3 {
+            text-align: center;
+            font-family: $tipografia_primaria;
+            font-size: $tipografia_tam_pri;
+            font-weight: $tipografia_grosor_600;
+            color: $color_secundario;
+            margin-top: 10px;
+        }
+
+        h5 {
+            text-align: center;
+            font-family: $tipografia_secundaria;
+            font-size: $tipografia_tam_sec;
+            font-weight: $tipografia_grosor_600;
+        }
+    }
+
+    .caracter {
+        h4 {
+            @extend p;
+            font-weight: $tipografia_grosor_600;
+            text-decoration: underline;
+            margin-top: 5px;
+        }
+
+        p {
+            text-align: justify;
+            font-family: $tipografia_primaria;
+            font-size: $tipografia_tam_sec;
+            padding: 10px;
+        }
+    }
+
+    .historia {
+        @extend .caracter;
+
+        img {
+            width: 25vw;
+            border-radius: $border_radio;
+            margin: 10px;
+        }
+    }
+
+    .caracteristicas {
+        @extend .caracter;
+    }
+
+    .diferencias {
+        @extend .caracter;
+    }
+
+    .sabias {
+        @extend .historia;
+    }
+}
